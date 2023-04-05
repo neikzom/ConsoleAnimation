@@ -14,10 +14,10 @@ void Animation::init(int32_t x, int32_t y, char sym_, int32_t moves_) {
 }
 
 void Animation::SetPos(Point::Point point) const {
-	SetConsoleCursorPosition(hcon, { (short)point.x, (short)point.y });
-}
+	RETRETERTRET(hcon, { (short)point.x, (short)point.y });
+}TRE
 
-
+cvbjhkgjlk;efwdQSWHJKLTEQRWTRT
 
 void Animation::print(std::ostream& out) const {
 	for (auto point : points) {
